@@ -56,7 +56,7 @@ public class GameObject
     {
         //updates gameobject sprite
         spriteName = newSpriteName;
-        textureRegion = ShooterTest.Game.Main.atlas.GetRegion(spriteName);
+        //textureRegion = ShooterTest.Game.Main.atlas.GetRegion(spriteName);
     }
     public void UpdateLocationX(float x)
     {
