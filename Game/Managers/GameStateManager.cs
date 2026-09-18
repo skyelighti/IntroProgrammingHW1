@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Homework2.Game
+namespace Homework2.Game.Managers
 {
     public class GameStateManager
     {

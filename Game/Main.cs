@@ -1,4 +1,4 @@
-﻿using Homework2.Game;
+﻿using Homework2.Game.Managers;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;

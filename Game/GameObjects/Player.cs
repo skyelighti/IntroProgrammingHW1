@@ -6,14 +6,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Homework2.Game
+namespace Homework2.Game.GameObjects
 {
-    public class Raccoon : GameObject, ICollidable
+    public class Player : GameObject, ICollidable
     {
-        public Raccoon(ContentManager content, string spriteName, string name) : base(content, spriteName, name)
-        {
-        }
-
         public Rectangle BoxCollider
         {
             get
@@ -23,9 +19,18 @@ namespace Homework2.Game
             //returns new rect everytime its called, so its always accurate
         }
 
+        public Player(ContentManager content, string spriteName, string name) : base(content, spriteName, name)
+        {
+        }
+
+        public override void Update(GameTime gameTime)
+        {
+            base.Update(gameTime);
+        }
         public void OnCollision(ICollidable other)
         {
             throw new NotImplementedException();
         }
+
     }
 }
